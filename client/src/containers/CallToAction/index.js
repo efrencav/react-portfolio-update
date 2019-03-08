@@ -1,13 +1,13 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import Box from 'reusecore/src/elements/Box';
-import Text from 'reusecore/src/elements/Text';
-import Heading from 'reusecore/src/elements/Heading';
-import Button from 'reusecore/src/elements/Button';
-import Container from '../../../components/UI/Container';
+import Box from './elements/Box'; 
+import Text from './elements/Text';
+import Heading from './elements/Heading';
+import Button from './elements/Button';
+import Container from './../../components/UI/Container'; 
 
-import { ButtonWrapper } from '../../Portfolio/portfolio.style';
-import { CallToActionWrapper } from './callToAction.style';
+import { ButtonWrapper } from './../../containers/portfolio.style';
+import { CallToActionWrapper } from './callToAction.style'; 
 
 const CallToAction = ({
   sectionWrapper,

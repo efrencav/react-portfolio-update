@@ -1,6 +1,6 @@
 import styled, { createGlobalStyle } from 'styled-components';
 import { themeGet } from 'styled-system';
-import Line from '../../assets/image/portfolio/dotted-line.png';
+import Line from './../assets/images/dotted-line.png';
 
 export const GlobalStyle = createGlobalStyle`
   body{

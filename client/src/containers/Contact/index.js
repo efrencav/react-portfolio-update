@@ -1,15 +1,15 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import Box from 'reusecore/src/elements/Box';
-import Text from 'reusecore/src/elements/Text';
-import Heading from 'reusecore/src/elements/Heading';
-import Image from 'reusecore/src/elements/Image';
-import Button from 'reusecore/src/elements/Button';
-import Container from '../../../components/UI/Container';
+import Box from './../../elements/Box'; 
+import Text from './../../elements/Text';
+import Heading from './../../elements/Heading';
+import Image from './../../elements/Image';
+import Button from './../../elements/Button';
+import Container from './../../components/UI/Container';
 
-import { ButtonWrapper } from '../../Portfolio/portfolio.style';
+import { ButtonWrapper } from './../../containers/portfolio.style';
 import { ActiveStatus } from './contact.style';
-import Author from '../../../assets/image/portfolio/avatar.png';
+import Author from './../../assets/images/portfolio/avatar.png'; 
 
 const ContactSection = ({
   sectionWrapper,
