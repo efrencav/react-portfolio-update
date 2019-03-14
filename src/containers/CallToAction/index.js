@@ -61,7 +61,7 @@ CallToAction.defaultProps = {
   title: {
     fontSize: ['20px', '26px', '26px', '30px', '30px'],
     fontWeight: '700',
-    color: '#302b4e',
+    color: '#FF0000',
     lineHeight: '1.34',
     mb: ['15px', '15px', '18px', '22px', '22px'],
     textAlign: ['center', 'center', 'left', 'left', 'left'],

@@ -200,7 +200,7 @@ PortfolioShowcase.defaultProps = {
   secTitle: {
     fontSize: ['22px', '26px', '26px', '30px', '30px'],
     fontWeight: '600',
-    color: '#302b4e',
+    color: '#FF0000',
     lineHeight: '1.34',
     mb: ['15px', '18px', '18px', '20px', '20px'],
   },
@@ -221,7 +221,7 @@ PortfolioShowcase.defaultProps = {
   titleStyle: {
     fontSize: ['22px', '22px', '26px', '40px', '40px'],
     fontWeight: '600',
-    color: '#302b4e',
+    color: '#FF0000',
     mb: '17px',
   },
   detailsStyle: {

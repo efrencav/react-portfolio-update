@@ -263,9 +263,9 @@ export const ContentWrapper = styled.div`
       .main_menu {
         li {
           a {
-            color: #302b4e;
+            color: #FF0000;
             &:after {
-              background: #c2c7fb;
+              background: #E06666;
             }
           }
         }

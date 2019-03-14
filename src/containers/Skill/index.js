@@ -119,7 +119,7 @@ SkillSection.defaultProps = {
   secTitle: {
     fontSize: ['22px', '26px', '26px', '30px', '30px'],
     fontWeight: '700',
-    color: '#302b4e',
+    color: '#FF0000',
     lineHeight: '1.34',
     mb: ['15px', '18px', '18px', '20px', '20px'],
     textAlign: 'center',
@@ -151,7 +151,7 @@ SkillSection.defaultProps = {
   skillTitle: {
     fontSize: ['16px', '18px', '18px', '20px', '20px'],
     fontWeight: '600',
-    color: '#302b4e',
+    color: '#FF0000',
     mb: '12px',
   },
   skillDescription: {
@@ -164,7 +164,7 @@ SkillSection.defaultProps = {
   skillSuccessRate: {
     fontSize: ['15px', '15px', '14px', '15px', '16px'],
     fontWeight: '400',
-    color: '#302b4e',
+    color: '#FF0000',
     lineHeight: '1.5',
     mb: '0',
   },

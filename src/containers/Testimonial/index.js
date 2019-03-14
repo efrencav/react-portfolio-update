@@ -136,7 +136,7 @@ TestimonialSection.defaultProps = {
   secTitle: {
     fontSize: ['22px', '26px', '26px', '30px', '30px'],
     fontWeight: '700',
-    color: '#302b4e',
+    color: '#FF0000',
     lineHeight: '1.34',
     mb: ['15px', '18px', '18px', '20px', '20px'],
   },
@@ -157,7 +157,7 @@ TestimonialSection.defaultProps = {
   },
   nameStyle: {
     fontSize: '16px',
-    color: '#302b4e',
+    color: '#FF0000',
     fontWeight: '600',
     mb: '7px',
   },
