@@ -67,7 +67,7 @@ export const GlobalStyle = createGlobalStyle`
               position: absolute;
               width: calc(100% - 8px);
               height: 11px;
-              background: #c2c7fb;
+              background: #e2726d;
               bottom: 2px;
               left: -4px;
               z-index: -1;
@@ -111,7 +111,7 @@ export const GlobalStyle = createGlobalStyle`
         content: '\f10b';
         font-family: Flaticon;
         font-size: 26px;
-        color: #3444f1;
+        color: #f05444;
         transform: rotate(45deg);
         display: block;
       }
@@ -147,7 +147,7 @@ export const ContentWrapper = styled.div`
     transition: 0.2s ease-in-out;
     &:before {
       content: '';
-      background-color: ${themeGet('colors.primary', '#3444f1')};
+      background-color: ${themeGet('colors.primary', '#f05444')};
       position: absolute;
       width: calc(100% + 4px);
       height: calc(100% + 4px);
@@ -224,7 +224,7 @@ export const ContentWrapper = styled.div`
             position: absolute;
             width: calc(100% - 8px);
             height: 11px;
-            background: #3444f1;
+            background: #f05444;
             bottom: 6px;
             left: 0;
             z-index: -1;
@@ -265,7 +265,7 @@ export const ContentWrapper = styled.div`
           a {
             color: #302b4e;
             &:after {
-              background: #c2c7fb;
+              background: #e2726d;
             }
           }
         }
@@ -314,7 +314,7 @@ export const PrevButton = styled.div`
   cursor: pointer;
   &:hover {
     span {
-      background: #3444f1;
+      background: #f05444;
       @media (min-width: 991px) {
         width: 100px;
       }
@@ -323,7 +323,7 @@ export const PrevButton = styled.div`
   span {
     width: 18px;
     height: 2px;
-    background: #d1d3de;
+    background: #e2c0bf;
     display: block;
     position: relative;
     transition: 0.3s cubic-bezier(0.445, 0.05, 0.55, 0.95);
@@ -357,7 +357,7 @@ export const NextButton = styled.div`
   cursor: pointer;
   &:hover {
     span {
-      background: #3444f1;
+      background: #f05444;
       @media (min-width: 991px) {
         width: 100px;
       }
@@ -366,7 +366,7 @@ export const NextButton = styled.div`
   span {
     width: 18px;
     height: 2px;
-    background: #d1d3de;
+    background: #e2c0bf;
     display: block;
     position: relative;
     transition: 0.3s cubic-bezier(0.445, 0.05, 0.55, 0.95);

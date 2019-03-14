@@ -87,7 +87,7 @@ export const PortfolioShowcaseWrapper = styled.div`
               top: 0;
               left: 0;
               width: 0;
-              color: #3444f1;
+              color: #f05444;
               overflow: hidden;
               white-space: nowrap;
               transition: 0.5s ease-in-out;
@@ -137,7 +137,7 @@ export const PortfolioLink = styled.div`
     font-size: 16px;
     font-weight: 700;
     font-family: 'Raleway', sans-serif;
-    color: #3444f1;
+    color: #f05444;
     position: relative;
     padding: 0 0 2px 8px;
     @media (max-width: 990px) {
@@ -153,13 +153,13 @@ export const PortfolioLink = styled.div`
       width: 58px;
       height: 15px;
       position: absolute;
-      background: #eaecfe;
+      background: #e2c0bf;
       bottom: 0;
       left: 0;
       z-index: -1;
     }
     &:after {
-      background: #c2c7fb;
+      background: #e2726d;
       transform: scaleX(0);
       transform-origin: right center 0;
       transition: transform 0.7s cubic-bezier(0.19, 1, 0.22, 1) 0s;
@@ -183,7 +183,7 @@ export const BuiltWith = styled.div`
     display: inline-block;
     font-size: 16px;
     font-weight: 600;
-    color: #3444f1;
+    color: #f05444;
     font-family: 'Raleway', sans-serif;
     padding: 5px 22px;
     position: relative;
@@ -261,7 +261,7 @@ export const MetaItem = styled.span`
     }
   }
   > a {
-    color: #3444f1;
+    color: #f05444;
     font-weight: 700;
   }
   > b {
