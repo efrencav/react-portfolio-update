@@ -45,7 +45,7 @@ const Footer = ({
             />
             <Link href="#">
               <a>
-                <Heading as="h3" content="LET'S TALK!" {...linkStyle} />
+                <Heading as="h3" content="LET'S TALK!" {...linkStyle} style={{ color: '161616'}} />
               </a>
             </Link>
           </Box>

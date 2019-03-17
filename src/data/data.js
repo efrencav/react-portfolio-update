@@ -13,8 +13,10 @@ import AwardImage2 from '../assets/image/award-2.png';
 import AwardImage3 from '../assets/image/award-3.png';
 import AwardImage4 from '../assets/image/award-4.png';
 
-import PortfolioImage1 from '../assets/image/portfolio-1.jpg';
-import PortfolioImage2 from '../assets/image/portfolio-2.jpg';
+import PortfolioImage1 from '../assets/image/portfolio-1.png';
+import PortfolioImage2 from '../assets/image/portfolio-2.png';
+import PortfolioImage3 from '../assets/image/portfolio-1.png';
+import PortfolioImage4 from '../assets/image/portfolio-2.png';
 
 import Step1 from '../assets/image/step-1.png';
 import Step2 from '../assets/image/step-2.png';
@@ -156,7 +158,7 @@ export const PORTFOLIO_SHOWCASE = [
       {
         title: 'Silestone Countertops Website Design',
         description:
-          "An elegant website design for a leading countertop manufacturing company.",
+          "Website design for a leading countertop manufacturing company.",
         image: PortfolioImage1,
         link: 'https://www.silestone.com/',
         // featuredIn: 'AWWWARDS',
@@ -164,39 +166,39 @@ export const PORTFOLIO_SHOWCASE = [
         // view: '4.5K',
         // love: '1.5K',
         // feedback: '1.2K',
-        // buildWith: [
-          // {
-            // content: 'React JS',
-          // },
-          // {
-            // content: 'Next JS',
-          // },
-          // {
-            // content: 'Styled Component',
-          // },
-        // ],
-      },
-      {
-        title: 'RedQ, Inc. mobile app',
-        description:
-          "An effective and immersive user experience is what catches the attention and spreads a clear message. That's why we attach great importance to the fact that ergonomics serves the design, and that this design is innovative and neat.",
-        image: PortfolioImage2,
-        link: '#',
-        featuredIn: 'AppStore',
-        featuredLink: '#',
-        view: '8.5K',
-        love: '5.5K',
-        feedback: '3.2K',
         buildWith: [
           {
-            content: 'React Native',
+            content: 'UI/UX Design',
           },
           {
-            content: 'Firebase',
+            content: 'Art Direction',
+          },
+          // {
+          //   content: 'Styled Component',
+          // },
+        ],
+      },
+      {
+        title: 'Stone Systems',
+        description:
+          "Website design for a stone fabrication company.",
+        image: PortfolioImage2,
+        link: 'http://www.stone-systems.com/',
+        // featuredIn: 'AppStore',
+        // featuredLink: '#',
+        // view: '8.5K',
+        // love: '5.5K',
+        // feedback: '3.2K',
+        buildWith: [
+          {
+            content: 'UI/UX Design',
           },
           {
-            content: 'Styled Component',
+            content: 'Art Direction',
           },
+          // {
+          //   content: 'Styled Component',
+          // },
         ],
       },
     ],

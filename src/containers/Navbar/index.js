@@ -52,13 +52,13 @@ const Navbar = ({ navbarStyle, logoStyle, button, row, menuWrapper }) => {
             />
             <Link href="#">
               <a className="navbar_button">
-                <Button {...button} title="LET'S TALK" />
+                <Button {...button} title="LET'S TALK" style={{ color: '#161616' }}/>
               </a>
             </Link>
             <Drawer
               width="420px"
               placement="right"
-              drawerHandler={<HamburgMenu barColor="#f05444" />}
+              drawerHandler={<HamburgMenu barColor="#161616" />}
               open={state.isOpen}
               toggleHandler={toggleHandler}
             >
