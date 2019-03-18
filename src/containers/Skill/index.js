@@ -80,7 +80,7 @@ const SkillSection = ({
                       percent={item.successRate}
                       strokeWidth="1.8"
                       trailWidth="1.8"
-                      strokeColor="#3444f1"
+                      strokeColor="#EC6E52"
                       trailColor="#e3e7f2"
                     />
                   </ProgressBar>

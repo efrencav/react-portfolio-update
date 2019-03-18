@@ -46,6 +46,12 @@ export const ResetCSS = createGlobalStyle`
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.004);
   }
 
+  .alt-font {
+    font-family: questa-grande, serif;
+    font-style: normal;
+    font-weight: 900;
+  }
+
   body {
     margin: 0;
     padding: 0;

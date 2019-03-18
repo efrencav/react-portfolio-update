@@ -48,7 +48,7 @@ export const GlobalStyle = createGlobalStyle`
           a{
             font-size: 20px;
             font-weight: 500;
-            color: #343d48;
+            color: #373737;
             position: relative;
             font-family: 'Raleway', sans-serif;
             transition: 0.15s ease-in-out;
@@ -111,7 +111,7 @@ export const GlobalStyle = createGlobalStyle`
         content: '\f10b';
         font-family: Flaticon;
         font-size: 26px;
-        color: #3444f1;
+        color: #EC6E52;
         transform: rotate(45deg);
         display: block;
       }
@@ -147,7 +147,7 @@ export const ContentWrapper = styled.div`
     transition: 0.2s ease-in-out;
     &:before {
       content: '';
-      background-color: ${themeGet('colors.primary', '#3444f1')};
+      background-color: ${themeGet('colors.primary', '#EC6E52')};
       position: absolute;
       width: calc(100% + 4px);
       height: calc(100% + 4px);
@@ -224,7 +224,7 @@ export const ContentWrapper = styled.div`
             position: absolute;
             width: calc(100% - 8px);
             height: 11px;
-            background: #3444f1;
+            background: #EC6E52;
             bottom: 6px;
             left: 0;
             z-index: -1;
@@ -314,7 +314,7 @@ export const PrevButton = styled.div`
   cursor: pointer;
   &:hover {
     span {
-      background: #3444f1;
+      background: #EC6E52;
       @media (min-width: 991px) {
         width: 100px;
       }
@@ -323,7 +323,7 @@ export const PrevButton = styled.div`
   span {
     width: 18px;
     height: 2px;
-    background: #d1d3de;
+    background: #B7A5A5;
     display: block;
     position: relative;
     transition: 0.3s cubic-bezier(0.445, 0.05, 0.55, 0.95);
@@ -357,7 +357,7 @@ export const NextButton = styled.div`
   cursor: pointer;
   &:hover {
     span {
-      background: #3444f1;
+      background: #EC6E52;
       @media (min-width: 991px) {
         width: 100px;
       }
@@ -366,7 +366,7 @@ export const NextButton = styled.div`
   span {
     width: 18px;
     height: 2px;
-    background: #d1d3de;
+    background: #B7A5A5;
     display: block;
     position: relative;
     transition: 0.3s cubic-bezier(0.445, 0.05, 0.55, 0.95);

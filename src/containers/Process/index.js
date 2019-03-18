@@ -240,7 +240,7 @@ ProcessSection.defaultProps = {
   buttonLabelStyle: {
     fontSize: '16px',
     fontWeight: '500',
-    color: '#3444f1',
+    color: '#EC6E52',
     mb: ['20px', '20px', '20px', '0', '0'],
     mr: '30px',
     width: ['100%', '100%', '100%', 'auto', 'auto'],
