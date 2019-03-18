@@ -1,7 +1,7 @@
 import React from 'react';
 import Link from 'next/link';
 import Icon from 'react-icons-kit';
-import { socialDribbbleOutline } from 'react-icons-kit/ionicons/socialDribbbleOutline';
+import { socialLinkedin } from 'react-icons-kit/ionicons/socialLinkedin';
 import { SocialProfileWrapper, SocialProfileItem } from './socialProfile.style';
 
 const SocialProfile = ({ items, className, iconSize }) => {
@@ -21,7 +21,7 @@ const SocialProfile = ({ items, className, iconSize }) => {
           <Link href={item.url || '#'}>
             <a>
               <Icon
-                icon={item.icon || socialDribbbleOutline}
+                icon={item.icon || socialLinkedin}
                 size={iconSize || 22}
               />
             </a>

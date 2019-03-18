@@ -41,7 +41,7 @@ const BannerSection = ({
                 style={{ color: '#161616' }}
                 size={22}
               />
-              <Heading content="& Award-winning Art Director" {...roleStyle}  />
+              <Heading content="and Award-winning Art Director" {...roleStyle}  />
             </Box>
             <Text
               content="Focused on defining principle driven visual systems that scale to global products and brands. Lately, I've been putting a lot of thought into personalized illustrative languages and getting machines to draw."

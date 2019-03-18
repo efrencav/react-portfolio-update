@@ -13,7 +13,7 @@ export const SocialProfileItem = styled.div`
     color: #fff;
     transition: 0.15s ease-in-out;
     &:hover {
-      color: #f05444;
+      color: #161616;
     }
   }
 `;

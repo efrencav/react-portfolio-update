@@ -1,6 +1,6 @@
 import { socialTwitter } from 'react-icons-kit/ionicons/socialTwitter';
 import { socialFacebook } from 'react-icons-kit/ionicons/socialFacebook';
-import { socialDribbbleOutline } from 'react-icons-kit/ionicons/socialDribbbleOutline';
+import { socialLinkedin } from 'react-icons-kit/ionicons/socialLinkedin';
 import { socialGithub } from 'react-icons-kit/ionicons/socialGithub';
 import { socialGoogleplusOutline } from 'react-icons-kit/ionicons/socialGoogleplusOutline';
 
@@ -8,10 +8,10 @@ import Awardee1 from '../assets/image/awardee-1.png';
 import Awardee2 from '../assets/image/awardee-2.png';
 import Awardee3 from '../assets/image/awardee-3.png';
 import Awardee4 from '../assets/image/awardee-4.png';
-import AwardImage1 from '../assets/image/award-1.png';
-import AwardImage2 from '../assets/image/award-2.png';
-import AwardImage3 from '../assets/image/award-3.png';
-import AwardImage4 from '../assets/image/award-4.png';
+import AwardImage1 from '../assets/image/award-01.png';
+import AwardImage2 from '../assets/image/award-01.png';
+import AwardImage3 from '../assets/image/award-01.png';
+import AwardImage4 from '../assets/image/award-01.png';
 
 import PortfolioImage1 from '../assets/image/portfolio-1.png';
 import PortfolioImage2 from '../assets/image/portfolio-2.png';
@@ -41,24 +41,24 @@ import Reviewer3 from '../assets/image/client-avatar-3.jpg';
 export const SOCIAL_PROFILES = [
   {
     icon: socialTwitter,
-    url: '#',
+    url: 'https://twitter.com/efrencav',
   },
+  // {
+  //   icon: socialFacebook,
+  //   url: '#',
+  // },
   {
-    icon: socialFacebook,
-    url: '#',
-  },
-  {
-    icon: socialDribbbleOutline,
-    url: '#',
+    icon: socialLinkedin,
+    url: 'https://www.linkedin.com/in/efrencavazos/',
   },
   {
     icon: socialGithub,
-    url: '#',
+    url: 'https://github.com/efrencav',
   },
-  {
-    icon: socialGoogleplusOutline,
-    url: '#',
-  },
+  // {
+  //   icon: socialGoogleplusOutline,
+  //   url: '#',
+  // },
 ];
 
 export const MENU_ITEMS = [
@@ -87,42 +87,42 @@ export const MENU_ITEMS = [
 export const AWARDS = [
   {
     awardLogo: AwardImage1,
-    awardName: 'AMA Crystal Award',
+    awardName: 'Crystal Award',
     awardDetails: 'Packaging Design',
     awardeeLogo: Awardee1,
-    awardeeName: 'Awardee',
+    awardeeName: 'American Marketing Association',
     date: '2018',
   },
   {
     awardLogo: AwardImage2,
-    awardName: 'BMA Lantern Award',
+    awardName: 'Lantern Award',
     awardDetails: 'Automated Service Delivery Platform Launch Event',
     awardeeLogo: Awardee2,
-    awardeeName: 'Awardee',
+    awardeeName: 'Business Marketing Association',
     date: '2016',
   },
   {
     awardLogo: AwardImage3,
-    awardName: 'BMA Lantern Award',
+    awardName: 'Lantern Award',
     awardDetails: 'Infinity System Trailer Traveling Exhibit',
     awardeeLogo: Awardee3,
-    awardeeName: 'Awardee',
+    awardeeName: 'Business Marketing Association',
     date: '2016',
   },
   {
     awardLogo: AwardImage4,
-    awardName: 'BMA Lantern Award',
+    awardName: 'Lantern Award',
     awardDetails: 'Capabilities booklet',
     awardeeLogo: Awardee4,
-    awardeeName: 'Awardee',
+    awardeeName: 'Business Marketing Association',
     date: '2015',
   },
   {
     awardLogo: AwardImage4,
-    awardName: 'BMA Lantern Award',
+    awardName: 'Lantern Award',
     awardDetails: 'Product, Equipment or parts catalog',
     awardeeLogo: Awardee4,
-    awardeeName: 'Awardee',
+    awardeeName: 'Business Marketing Association',
     date: '2014',
   },
   {
@@ -135,10 +135,10 @@ export const AWARDS = [
   },
   {
     awardLogo: AwardImage4,
-    awardName: 'BMA Lantern Award',
+    awardName: 'Lantern Award',
     awardDetails: 'Digital Division - Gold Award',
     awardeeLogo: Awardee4,
-    awardeeName: 'Awardee',
+    awardeeName: 'Business Marketing Association',
     date: '2015',
   },
   {
