@@ -2,7 +2,7 @@ import { socialTwitter } from 'react-icons-kit/ionicons/socialTwitter';
 import { socialFacebook } from 'react-icons-kit/ionicons/socialFacebook';
 import { socialLinkedin } from 'react-icons-kit/ionicons/socialLinkedin';
 import { socialGithub } from 'react-icons-kit/ionicons/socialGithub';
-import { socialGoogleplusOutline } from 'react-icons-kit/ionicons/socialGoogleplusOutline';
+import { iosDownload } from 'react-icons-kit/ionicons/iosDownload';
 
 import Awardee1 from '../assets/image/awardee-1.png';
 import Awardee2 from '../assets/image/awardee-2.png';
@@ -55,10 +55,10 @@ export const SOCIAL_PROFILES = [
     icon: socialGithub,
     url: 'https://github.com/efrencav',
   },
-  // {
-  //   icon: socialGoogleplusOutline,
-  //   url: '#',
-  // },
+  {
+    icon: iosDownload,
+    url: 'https://s3.amazonaws.com/react-portfolio-images/Efren_Cavazos_Resume_2019.pdf',
+  },
 ];
 
 export const MENU_ITEMS = [
