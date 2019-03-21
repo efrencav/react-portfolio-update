@@ -8,19 +8,19 @@ import Awardee1 from '../assets/image/awardee-1.png';
 import Awardee2 from '../assets/image/awardee-2.png';
 import Awardee3 from '../assets/image/awardee-3.png';
 import Awardee4 from '../assets/image/awardee-4.png';
-import AwardImage1 from '../assets/image/award-01.png';
-import AwardImage2 from '../assets/image/award-01.png';
-import AwardImage3 from '../assets/image/award-01.png';
-import AwardImage4 from '../assets/image/award-01.png';
+import AwardImage1 from '../assets/image/award.svg';
+import AwardImage2 from '../assets/image/award.svg';
+import AwardImage3 from '../assets/image/award.svg';
+import AwardImage4 from '../assets/image/award.svg';
 
 import PortfolioImage1 from '../assets/image/portfolio-1.png';
 import PortfolioImage2 from '../assets/image/portfolio-2.png';
 import PortfolioImage3 from '../assets/image/portfolio-1.png';
 import PortfolioImage4 from '../assets/image/portfolio-2.png';
 
-import Step1 from '../assets/image/research.png';
-import Step2 from '../assets/image/design.png';
-import Step3 from '../assets/image/build.png';
+import Step1 from '../assets/image/research.svg';
+import Step2 from '../assets/image/design.svg';
+import Step3 from '../assets/image/build.svg';
 
 import SkillIcon1 from '../assets/image/skill-1.svg';
 import SkillIcon2 from '../assets/image/skill-2.svg';
