@@ -314,7 +314,7 @@ export const PrevButton = styled.div`
   cursor: pointer;
   &:hover {
     span {
-      background: #f05444;
+      background: #161616;
       @media (min-width: 991px) {
         width: 100px;
       }
@@ -323,7 +323,7 @@ export const PrevButton = styled.div`
   span {
     width: 18px;
     height: 2px;
-    background: #e2c0bf;
+    background: #a09477;
     display: block;
     position: relative;
     transition: 0.3s cubic-bezier(0.445, 0.05, 0.55, 0.95);
@@ -357,7 +357,7 @@ export const NextButton = styled.div`
   cursor: pointer;
   &:hover {
     span {
-      background: #f05444;
+      background: #161616;
       @media (min-width: 991px) {
         width: 100px;
       }
@@ -366,7 +366,7 @@ export const NextButton = styled.div`
   span {
     width: 18px;
     height: 2px;
-    background: #e2c0bf;
+    background: #a09477;
     display: block;
     position: relative;
     transition: 0.3s cubic-bezier(0.445, 0.05, 0.55, 0.95);

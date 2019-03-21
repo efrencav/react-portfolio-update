@@ -1,20 +1,22 @@
 import { socialTwitter } from 'react-icons-kit/ionicons/socialTwitter';
 import { socialFacebook } from 'react-icons-kit/ionicons/socialFacebook';
-import { socialDribbbleOutline } from 'react-icons-kit/ionicons/socialDribbbleOutline';
+import { socialLinkedin } from 'react-icons-kit/ionicons/socialLinkedin';
 import { socialGithub } from 'react-icons-kit/ionicons/socialGithub';
-import { socialGoogleplusOutline } from 'react-icons-kit/ionicons/socialGoogleplusOutline';
+import { iosDownload } from 'react-icons-kit/ionicons/iosDownload';
 
 import Awardee1 from '../assets/image/awardee-1.png';
 import Awardee2 from '../assets/image/awardee-2.png';
 import Awardee3 from '../assets/image/awardee-3.png';
 import Awardee4 from '../assets/image/awardee-4.png';
-import AwardImage1 from '../assets/image/award-1.png';
-import AwardImage2 from '../assets/image/award-2.png';
-import AwardImage3 from '../assets/image/award-3.png';
-import AwardImage4 from '../assets/image/award-4.png';
+import AwardImage1 from '../assets/image/award-01.png';
+import AwardImage2 from '../assets/image/award-01.png';
+import AwardImage3 from '../assets/image/award-01.png';
+import AwardImage4 from '../assets/image/award-01.png';
 
-import PortfolioImage1 from '../assets/image/portfolio-1.jpg';
-import PortfolioImage2 from '../assets/image/portfolio-2.jpg';
+import PortfolioImage1 from '../assets/image/portfolio-1.png';
+import PortfolioImage2 from '../assets/image/portfolio-2.png';
+import PortfolioImage3 from '../assets/image/portfolio-1.png';
+import PortfolioImage4 from '../assets/image/portfolio-2.png';
 
 import Step1 from '../assets/image/step-1.png';
 import Step2 from '../assets/image/step-2.png';
@@ -39,23 +41,23 @@ import Reviewer3 from '../assets/image/client-avatar-3.jpg';
 export const SOCIAL_PROFILES = [
   {
     icon: socialTwitter,
-    url: '#',
+    url: 'https://twitter.com/efrencav',
   },
+  // {
+  //   icon: socialFacebook,
+  //   url: '#',
+  // },
   {
-    icon: socialFacebook,
-    url: '#',
-  },
-  {
-    icon: socialDribbbleOutline,
-    url: '#',
+    icon: socialLinkedin,
+    url: 'https://www.linkedin.com/in/efrencavazos/',
   },
   {
     icon: socialGithub,
-    url: '#',
+    url: 'https://github.com/efrencav',
   },
   {
-    icon: socialGoogleplusOutline,
-    url: '#',
+    icon: iosDownload,
+    url: 'https://s3.amazonaws.com/react-portfolio-images/Efren_Cavazos_Resume_2019.pdf',
   },
 ];
 
@@ -85,42 +87,42 @@ export const MENU_ITEMS = [
 export const AWARDS = [
   {
     awardLogo: AwardImage1,
-    awardName: 'AMA Crystal Award',
+    awardName: 'Crystal Award',
     awardDetails: 'Packaging Design',
     awardeeLogo: Awardee1,
-    awardeeName: 'Awardee',
+    awardeeName: 'American Marketing Association',
     date: '2018',
   },
   {
     awardLogo: AwardImage2,
-    awardName: 'BMA Lantern Award',
+    awardName: 'Lantern Award',
     awardDetails: 'Automated Service Delivery Platform Launch Event',
     awardeeLogo: Awardee2,
-    awardeeName: 'Awardee',
+    awardeeName: 'Business Marketing Association',
     date: '2016',
   },
   {
     awardLogo: AwardImage3,
-    awardName: 'BMA Lantern Award',
+    awardName: 'Lantern Award',
     awardDetails: 'Infinity System Trailer Traveling Exhibit',
     awardeeLogo: Awardee3,
-    awardeeName: 'Awardee',
+    awardeeName: 'Business Marketing Association',
     date: '2016',
   },
   {
     awardLogo: AwardImage4,
-    awardName: 'BMA Lantern Award',
+    awardName: 'Lantern Award',
     awardDetails: 'Capabilities booklet',
     awardeeLogo: Awardee4,
-    awardeeName: 'Awardee',
+    awardeeName: 'Business Marketing Association',
     date: '2015',
   },
   {
     awardLogo: AwardImage4,
-    awardName: 'BMA Lantern Award',
+    awardName: 'Lantern Award',
     awardDetails: 'Product, Equipment or parts catalog',
     awardeeLogo: Awardee4,
-    awardeeName: 'Awardee',
+    awardeeName: 'Business Marketing Association',
     date: '2014',
   },
   {
@@ -133,10 +135,10 @@ export const AWARDS = [
   },
   {
     awardLogo: AwardImage4,
-    awardName: 'BMA Lantern Award',
+    awardName: 'Lantern Award',
     awardDetails: 'Digital Division - Gold Award',
     awardeeLogo: Awardee4,
-    awardeeName: 'Awardee',
+    awardeeName: 'Business Marketing Association',
     date: '2015',
   },
   {
@@ -156,7 +158,7 @@ export const PORTFOLIO_SHOWCASE = [
       {
         title: 'Silestone Countertops Website Design',
         description:
-          "An elegant website design for a leading countertop manufacturing company.",
+          "Website design for a leading countertop manufacturing company.",
         image: PortfolioImage1,
         link: 'https://www.silestone.com/',
         // featuredIn: 'AWWWARDS',
@@ -164,39 +166,39 @@ export const PORTFOLIO_SHOWCASE = [
         // view: '4.5K',
         // love: '1.5K',
         // feedback: '1.2K',
-        // buildWith: [
-          // {
-            // content: 'React JS',
-          // },
-          // {
-            // content: 'Next JS',
-          // },
-          // {
-            // content: 'Styled Component',
-          // },
-        // ],
-      },
-      {
-        title: 'RedQ, Inc. mobile app',
-        description:
-          "An effective and immersive user experience is what catches the attention and spreads a clear message. That's why we attach great importance to the fact that ergonomics serves the design, and that this design is innovative and neat.",
-        image: PortfolioImage2,
-        link: '#',
-        featuredIn: 'AppStore',
-        featuredLink: '#',
-        view: '8.5K',
-        love: '5.5K',
-        feedback: '3.2K',
         buildWith: [
           {
-            content: 'React Native',
+            content: 'UI/UX Design',
           },
           {
-            content: 'Firebase',
+            content: 'Art Direction',
+          },
+          // {
+          //   content: 'Styled Component',
+          // },
+        ],
+      },
+      {
+        title: 'Stone Systems',
+        description:
+          "Website design for a stone fabrication company.",
+        image: PortfolioImage2,
+        link: 'http://www.stone-systems.com/',
+        // featuredIn: 'AppStore',
+        // featuredLink: '#',
+        // view: '8.5K',
+        // love: '5.5K',
+        // feedback: '3.2K',
+        buildWith: [
+          {
+            content: 'UI/UX Design',
           },
           {
-            content: 'Styled Component',
+            content: 'Art Direction',
           },
+          // {
+          //   content: 'Styled Component',
+          // },
         ],
       },
     ],

@@ -64,7 +64,7 @@ const AwardsSection = ({
           />
           <Text
             {...secDescription}
-            content="Year after year, Efren Cavazos has been recognized as one of the top design and development firms in Houston, TX. It’s nice to feel appreciated!"
+            content="Year after year, Efren Cavazos has been recognized for the quality work done in Houston, TX. It’s nice to feel appreciated!"
           />
         </Box>
 
@@ -96,13 +96,6 @@ const AwardsSection = ({
                   <Heading content={award.awardName} {...awardNameStyle} />
                   <Text content={award.awardDetails} {...awardDetailsStyle} />
                   <AwardeeWrapper>
-                    <AwardeeLogo>
-                      <Image
-                        src={award.awardeeLogo}
-                        alt={`awardee-logo-${index}`}
-                        {...awardeeLogoStyle}
-                      />
-                    </AwardeeLogo>
                     <AwardeeDetails>
                       <Heading
                         content={award.awardeeName}
@@ -177,12 +170,14 @@ AwardsSection.defaultProps = {
     color: '#9391a5',
     lineHeight: '1.35',
     fontWeight: '600',
+    textAlign: 'center',
     mb: '4px',
   },
   awardDateStyle: {
     fontSize: '12px',
     color: '#9391a5',
     lineHeight: '1.35',
+    textAlign: 'center',
     mb: '0',
   },
 };
