@@ -18,9 +18,9 @@ import PortfolioImage2 from '../assets/image/portfolio-2.png';
 import PortfolioImage3 from '../assets/image/portfolio-1.png';
 import PortfolioImage4 from '../assets/image/portfolio-2.png';
 
-import Step1 from '../assets/image/step-1.png';
-import Step2 from '../assets/image/step-2.png';
-import Step3 from '../assets/image/step-3.png';
+import Step1 from '../assets/image/research.png';
+import Step2 from '../assets/image/design.png';
+import Step3 from '../assets/image/build.png';
 
 import SkillIcon1 from '../assets/image/skill-1.svg';
 import SkillIcon2 from '../assets/image/skill-2.svg';
