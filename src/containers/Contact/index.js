@@ -44,7 +44,7 @@ const ContactSection = ({
         <Box {...buttonWrapper}>
           <ButtonWrapper>
             <Button
-              title="hello@danielkorpai.com"
+              title="efren.cavazos@gmail.com"
               className="portfolio_button"
               {...buttonStyle}
             />

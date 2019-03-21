@@ -35,7 +35,7 @@ const BannerSection = ({
             <Box {...roleWrapper}>
               <Icon
                 icon={cornerDownRight}
-                style={{ color: '#3444f1' }}
+                style={{ color: '#f05444' }}
                 size={22}
               />
               <Heading content="Illustrative Lead at Google" {...roleStyle} />

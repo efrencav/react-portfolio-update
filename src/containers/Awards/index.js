@@ -64,7 +64,7 @@ const AwardsSection = ({
           />
           <Text
             {...secDescription}
-            content="Year after year, Blue Label Labs has been recognized as one of the top design and development firms in New York City. It’s nice to feel appreciated!"
+            content="Year after year, Efren Cavazos has been recognized as one of the top design and development firms in Houston, TX. It’s nice to feel appreciated!"
           />
         </Box>
 

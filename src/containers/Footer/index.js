@@ -157,7 +157,7 @@ Footer.defaultProps = {
   },
   linkStyle: {
     fontSize: ['22px', '26px', '26px', '30px'],
-    color: '#3444f1',
+    color: '#f05444',
     mb: 0,
   },
   newsletterButton: {
