@@ -461,73 +461,73 @@ export const SERVICE_LIST = [
         content: 'ReactJS',
       },
       {
-        content: 'AngularJS',
-      },
-      {
-        content: 'ASP.NET MVC',
-      },
-      {
         content: 'WordPress',
       },
       {
         content: 'NodeJS',
       },
       {
-        content: 'GO',
+        content: 'HTML/CSS',
+      },
+      {
+        content: 'Javascript',
+      },
+      {
+        content: 'JQuery',
       },
     ],
   },
-  {
-    title: 'Mobile App Development',
-    listItems: [
-      {
-        content: 'iOS',
-      },
-      {
-        content: 'Android',
-      },
-      {
-        content: 'React Native',
-      },
-      {
-        content: 'Ionic & Apache Cordova',
-      },
-      {
-        content: 'NodeJS',
-      },
-      {
-        content: '3D & VR',
-      },
-    ],
-  },
+  // {
+  //   title: 'Mobile App Development',
+  //   listItems: [
+  //     {
+  //       content: 'iOS',
+  //     },
+  //     {
+  //       content: 'Android',
+  //     },
+  //     {
+  //       content: 'React Native',
+  //     },
+  //     {
+  //       content: 'Ionic & Apache Cordova',
+  //     },
+  //     {
+  //       content: 'NodeJS',
+  //     },
+  //     {
+  //       content: '3D & VR',
+  //     },
+  //   ],
+  // },
 ];
 
 export const SKILLS = [
   {
-    title: 'Graphic Design',
+    title: 'Graphic Design / Branding',
     description:
-      'Aristotle maintained the sharp distinction between science and the practical',
+      'I will ensure that your brand stands out from the crowd with the best design solutions',
     icon: SkillIcon1,
-    successRate: '90',
+    successRate: '100',
   },
   {
     title: 'UI/UX Design',
     description:
-      'Aristotle maintained the sharp distinction between science and the practical',
+      "Tell your brand's story while maximizing leads, with a custom website that will oup-perform your competition!",
     icon: SkillIcon2,
-    successRate: '85',
+    successRate: '90',
   },
   {
     title: 'Web Application',
     description:
-      'Aristotle maintained the sharp distinction between science and the practical',
+      'We believe in the importance of investigating the newest technologies, backing them up with practical examples and sharing them with our clients.',
     icon: SkillIcon3,
     successRate: '80',
   },
   {
     title: 'Mobile Application',
     description:
-      'Aristotle maintained the sharp distinction between science and the practical',
+      'Mobile application development is the set of processes and procedures involved in writing software for small, wireless computing devices.',
     icon: SkillIcon4,
     successRate: '70',
   },
