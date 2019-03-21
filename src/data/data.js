@@ -207,48 +207,48 @@ export const PORTFOLIO_SHOWCASE = [
     title: 'DEVELOPMENT',
     portfolioItem: [
       {
-        title: 'Canada Media Site',
+        title: 'My Garage React Application',
         description:
-          "An effective and immersive user experience is what catches the attention and spreads a clear message. That's why we attach great importance to the fact that ergonomics serves the design, and that this design is innovative and neat.",
+          "Manage all your car information in just one place.",
         image: PortfolioImage1,
-        link: '#',
-        featuredIn: 'AWWWARDS',
-        featuredLink: '#',
-        view: '4.5K',
-        love: '1.5K',
-        feedback: '1.2K',
+        link: 'https://my-car-garage.herokuapp.com/',
+        // featuredIn: 'AWWWARDS',
+        // featuredLink: '#',
+        // view: '4.5K',
+        // love: '1.5K',
+        // feedback: '1.2K',
         buildWith: [
           {
             content: 'React JS',
           },
           {
-            content: 'Next JS',
+            content: 'Node JS',
           },
           {
-            content: 'Styled Component',
+            content: 'Heroku',
           },
         ],
       },
       {
-        title: 'RedQ, Inc. mobile app',
+        title: 'React Clicky Game',
         description:
-          "An effective and immersive user experience is what catches the attention and spreads a clear message. That's why we attach great importance to the fact that ergonomics serves the design, and that this design is innovative and neat.",
+          "A click game developed using React JS",
         image: PortfolioImage2,
-        link: '#',
-        featuredIn: 'AppStore',
-        featuredLink: '#',
-        view: '8.5K',
-        love: '5.5K',
-        feedback: '3.2K',
+        link: 'https://efrencav.github.io/react-clicky-game-hw/',
+        // featuredIn: 'AppStore',
+        // featuredLink: '#',
+        // view: '8.5K',
+        // love: '5.5K',
+        // feedback: '3.2K',
         buildWith: [
           {
-            content: 'React Native',
+            content: 'React',
           },
           {
-            content: 'Firebase',
+            content: 'Node JS',
           },
           {
-            content: 'Styled Component',
+            content: 'Heroku',
           },
         ],
       },
