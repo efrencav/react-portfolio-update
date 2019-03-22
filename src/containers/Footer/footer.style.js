@@ -86,7 +86,11 @@ export const FooterNavItem = styled.li`
     font-size: 14px;
     transition: 0.15s ease-in-out;
     &:hover {
+<<<<<<< HEAD
       color: #EC6E52;
+=======
+      color: #f05444;
+>>>>>>> 09c43857ecec00513dbbc312d58182996be470b1
     }
   }
 `;

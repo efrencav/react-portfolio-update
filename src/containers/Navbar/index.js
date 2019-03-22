@@ -52,7 +52,7 @@ const Navbar = ({ navbarStyle, logoStyle, button, row, menuWrapper }) => {
             />
             <Link href="#">
               <a className="navbar_button">
-                <Button {...button} title="LET'S TALK" />
+                <Button {...button} title="LET'S TALK" style={{ color: '#161616' }}/>
               </a>
             </Link>
             <Drawer

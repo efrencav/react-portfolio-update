@@ -35,7 +35,11 @@ export const TestimonialItem = styled.div`
 
   .reviewer_org {
     font-size: 14px;
+<<<<<<< HEAD
     color: #EC6E52;
+=======
+    color: #f05444;
+>>>>>>> 09c43857ecec00513dbbc312d58182996be470b1
     margin-left: 0.4em;
   }
 `;

@@ -11,7 +11,7 @@ import BannerWrapper from './banner.style';
 
 import { SOCIAL_PROFILES } from '../../data/data';
 import { cornerDownRight } from 'react-icons-kit/feather/cornerDownRight';
-import PersonImage from '../../assets/image/person.png';
+import PersonImage from '../../assets/image/person2.png';
 
 const BannerSection = ({
   row,
@@ -29,20 +29,23 @@ const BannerSection = ({
       <Container noGutter mobileGutter width="1200px">
         <Box {...row}>
           <Box {...contentArea}>
-            <Heading content="Hello, I’m" {...greetingStyle} />
-            <Heading content="Efren Cavazos" {...nameStyle} />
-            <Heading content="Full Stack Developer" {...designationStyle} />
+            <Heading content="Hello, I’m" {...greetingStyle} 
+            style={{ color: '#161616'}}/>
+            <Heading content="Efren Cavazos" {...nameStyle} 
+            style={{ color: '#161616'}}/>
+            <Heading content="Full Stack Developer" {...designationStyle}
+            style={{ color: '#161616'}} />
             <Box {...roleWrapper}>
               <Icon
                 icon={cornerDownRight}
                 style={{ color: '#EC6E52' }}
                 size={22}
               />
-              <Heading content="Illustrative Lead at Google" {...roleStyle} />
+              <Heading content="and Award-winning Art Director" {...roleStyle}  />
             </Box>
             <Text
               content="Focused on defining principle driven visual systems that scale to global products and brands. Lately, I've been putting a lot of thought into personalized illustrative languages and getting machines to draw."
-              {...aboutStyle}
+              {...aboutStyle} style={{ color: '#161616' }}
             />
             <SocialProfile items={SOCIAL_PROFILES} />
           </Box>
