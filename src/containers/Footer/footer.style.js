@@ -53,7 +53,7 @@ export const Newsletter = styled.div`
     input {
       border: none;
       padding-left: 22px;
-      color: #302b4e;
+      color: #FF0000;
       &:focus {
         outline: none;
       }

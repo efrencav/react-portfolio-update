@@ -1,3 +1,47 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="70" height="66" viewBox="0 0 70 66">
-  <image id="monitor" width="70" height="66" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEYAAABCCAYAAADqv6CSAAAABHNCSVQICAgIfAhkiAAAA7pJREFUeJztm01o1GgYgJ/MtFl/pmjVWrWyPVh0WQYpaggexL0IQhUFhUVFXBX0JCvLrgoevQgK6lVQvIl/sOBBUauCioSg6OKCP22RVbHFFnWnWps6Mx4mwSTOh5lO80Pne05533zvl7dPJknbyafgQtUMBVgE/AQ0URu8AR4D9y1TLzpJxdlQNWMlcBRYEH1vieAJsNsy9ctgi1E1YztwHEjF2FgSKAA7LFM/oaia8TPwAKiPuamkMAK01wH7cElZtriB39bOoHl6bXjqGxjh1N/93LqXc1L1wD5F1YxeoBmg7ccfOH1oHum0IppnXJLPF9nwVzdd/w07qb4UthSApe2ZmpMCkE4rLMlOdqeaPTfbSRNq996bUrwfiNo18R3qKhx/EegE3ofQS6z82zW0EVjhxEHFfATWZFsz10LpKgGomtGOS0zQS+mP8SylHEHEfABOhd1I0ggi5nm2NTP8/WHjiyBiPofeRQKRj2sBUowAKUaAFCNAihEgxQiQYgRIMQKkGAFSjAApRoAUI0CKESDFCJBiBEgxAqQYAVKMAClGgBQjQIoRIMUIkGIEeL67vqL08yw94BkwTGHenFfXb0baVQzkjn1uG77xVYdHTJ9ikVMsf00GWB5+a/GSyhS9cUx9JB7PJ6axWE9L0ftmiEVh6KXy6WmkXcVAcUhpAWY4scfCqmITO/Mz/TVPs62Z9gh6ixVVM44CvzuxvJQESDECpBgBKSDvBP1va/JVGIeJru18Cuh2omt3/6dvYCT6lmJG1Yy5wHpXqrsOOAfsB3g/mGfTnh5W/zKVpsbSA+vDp0KTqhm7I+82OuYAW4BprtxZRdWMqcAjoCWWtpLHKyCbskz9HdABvI65oSTwGuiwTP1dCsAy9YfAQuAI0BtnZzHRS+lnX2i7oOxSE1UzpgCNY3zwf4AGe/sC8GfAusPAOns7R+kEjiVvLVP/ZglA2Vfm7YFjul5A1YyCKxy0TP15wLpBV1gIWlct8hc8AVKMgCjFjMWxIus3kgOpmjGZrzdegAHR2DK4xzbYc4VOVGegwxf3VFDrH+ufKxRCF2M/+g/40lcrmMI/9oA9Z6iEKkbVjNmUlgrOd6UvWaYe+F+l9thLrtR8oNOeOzSqXkusasYsYFaZXbOBk759BeBXoKvCw7QBZ/CeyF5gG+X/lCkCPZap58rsC0RVYlTN2AscrGaOEBkCVlum3jma4movpV1V1ofJRGDraIurFXO7yvqwuTPawkrXXfvZDJyn9G1l0ngx2ssI4As9YdTHLXBqLQAAAABJRU5ErkJggg=="/>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 23.0.2, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.0" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="100px" height="100px" viewBox="0 0 100 100" style="enable-background:new 0 0 100 100;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:none;stroke:#484F59;stroke-width:3;stroke-miterlimit:10;}
+	.st1{fill:none;stroke:#484F59;stroke-width:2;stroke-miterlimit:10;}
+	.st2{fill:none;stroke:#484F59;stroke-width:3;stroke-linejoin:bevel;}
+	.st3{fill:#D54533;stroke:#D54533;stroke-width:2;stroke-miterlimit:10;}
+</style>
+<g>
+	<g>
+		<rect x="3.3" y="3.2" class="st0" width="93.6" height="94.1"/>
+		<rect x="3.3" y="3.2" class="st0" width="93.6" height="9"/>
+		<line class="st1" x1="6.6" y1="7.7" x2="9.5" y2="7.7"/>
+		<line class="st1" x1="11.7" y1="7.7" x2="14.6" y2="7.7"/>
+		<line class="st1" x1="16.8" y1="7.7" x2="19.7" y2="7.7"/>
+	</g>
+	<g>
+		<g>
+			<g>
+				<line class="st2" x1="9" y1="83.2" x2="33.3" y2="83.2"/>
+				<line class="st2" x1="9" y1="89.3" x2="33.3" y2="89.3"/>
+			</g>
+			<rect x="9.8" y="68.5" class="st3" width="22.6" height="9"/>
+		</g>
+		<g>
+			<g>
+				<line class="st2" x1="37.9" y1="83.2" x2="62.1" y2="83.2"/>
+				<line class="st2" x1="37.9" y1="89.3" x2="62.1" y2="89.3"/>
+			</g>
+			<rect x="38.8" y="68.5" class="st3" width="22.6" height="9"/>
+		</g>
+		<g>
+			<g>
+				<line class="st2" x1="66.9" y1="83.2" x2="91.1" y2="83.2"/>
+				<line class="st2" x1="66.9" y1="89.3" x2="91.1" y2="89.3"/>
+			</g>
+			<rect x="67.7" y="68.5" class="st3" width="22.6" height="9"/>
+		</g>
+	</g>
+	<rect x="3.3" y="25.1" class="st0" width="93.6" height="36.6"/>
+	<g>
+		<line class="st2" x1="9" y1="19" x2="33.3" y2="19"/>
+	</g>
+</g>
 </svg>

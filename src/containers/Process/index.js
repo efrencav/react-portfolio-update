@@ -155,7 +155,7 @@ ProcessSection.defaultProps = {
   secTitle: {
     fontSize: ['22px', '26px', '26px', '30px', '30px'],
     fontWeight: '700',
-    color: '#302b4e',
+    color: '#FF0000',
     lineHeight: '1.34',
     mb: ['15px', '18px', '18px', '20px', '20px'],
     textAlign: 'center',
@@ -188,7 +188,7 @@ ProcessSection.defaultProps = {
   processTitleStyle: {
     fontSize: ['20px', '18px', '20px', '20px', '20px'],
     fontWeight: '600',
-    color: '#302b4e',
+    color: '#FF0000',
     textAlign: 'center',
     mb: ['20px', '20px', '27px', '27px', '27px'],
   },
@@ -212,7 +212,7 @@ ProcessSection.defaultProps = {
   learningTitle: {
     fontSize: ['22px', '22px', '24px', '30px', '30px'],
     fontWeight: '700',
-    color: '#302b4e',
+    color: '#FF0000',
     lineHeight: '1.34',
     mb: ['20px', '20px', '15px', '20px', '20px'],
     pr: ['0', '0', '0', '65px', '65px'],
@@ -267,7 +267,7 @@ ProcessSection.defaultProps = {
   listTitle: {
     fontSize: '20px',
     fontWeight: '600',
-    color: '#302b4e',
+    color: '#FF0000',
     mb: '25px',
   },
   listItem: {

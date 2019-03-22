@@ -8,19 +8,19 @@ import Awardee1 from '../assets/image/awardee-1.png';
 import Awardee2 from '../assets/image/awardee-2.png';
 import Awardee3 from '../assets/image/awardee-3.png';
 import Awardee4 from '../assets/image/awardee-4.png';
-import AwardImage1 from '../assets/image/award-01.png';
-import AwardImage2 from '../assets/image/award-01.png';
-import AwardImage3 from '../assets/image/award-01.png';
-import AwardImage4 from '../assets/image/award-01.png';
+import AwardImage1 from '../assets/image/award.svg';
+import AwardImage2 from '../assets/image/award.svg';
+import AwardImage3 from '../assets/image/award.svg';
+import AwardImage4 from '../assets/image/award.svg';
 
 import PortfolioImage1 from '../assets/image/portfolio-1.png';
 import PortfolioImage2 from '../assets/image/portfolio-2.png';
 import PortfolioImage3 from '../assets/image/portfolio-1.png';
 import PortfolioImage4 from '../assets/image/portfolio-2.png';
 
-import Step1 from '../assets/image/step-1.png';
-import Step2 from '../assets/image/step-2.png';
-import Step3 from '../assets/image/step-3.png';
+import Step1 from '../assets/image/research.svg';
+import Step2 from '../assets/image/design.svg';
+import Step3 from '../assets/image/build.svg';
 
 import SkillIcon1 from '../assets/image/skill-1.svg';
 import SkillIcon2 from '../assets/image/skill-2.svg';
@@ -207,48 +207,48 @@ export const PORTFOLIO_SHOWCASE = [
     title: 'DEVELOPMENT',
     portfolioItem: [
       {
-        title: 'Canada Media Site',
+        title: 'My Garage React Application',
         description:
-          "An effective and immersive user experience is what catches the attention and spreads a clear message. That's why we attach great importance to the fact that ergonomics serves the design, and that this design is innovative and neat.",
+          "Manage all your car information in just one place.",
         image: PortfolioImage1,
-        link: '#',
-        featuredIn: 'AWWWARDS',
-        featuredLink: '#',
-        view: '4.5K',
-        love: '1.5K',
-        feedback: '1.2K',
+        link: 'https://my-car-garage.herokuapp.com/',
+        // featuredIn: 'AWWWARDS',
+        // featuredLink: '#',
+        // view: '4.5K',
+        // love: '1.5K',
+        // feedback: '1.2K',
         buildWith: [
           {
             content: 'React JS',
           },
           {
-            content: 'Next JS',
+            content: 'Node JS',
           },
           {
-            content: 'Styled Component',
+            content: 'Heroku',
           },
         ],
       },
       {
-        title: 'RedQ, Inc. mobile app',
+        title: 'React Clicky Game',
         description:
-          "An effective and immersive user experience is what catches the attention and spreads a clear message. That's why we attach great importance to the fact that ergonomics serves the design, and that this design is innovative and neat.",
+          "A click game developed using React JS",
         image: PortfolioImage2,
-        link: '#',
-        featuredIn: 'AppStore',
-        featuredLink: '#',
-        view: '8.5K',
-        love: '5.5K',
-        feedback: '3.2K',
+        link: 'https://efrencav.github.io/react-clicky-game-hw/',
+        // featuredIn: 'AppStore',
+        // featuredLink: '#',
+        // view: '8.5K',
+        // love: '5.5K',
+        // feedback: '3.2K',
         buildWith: [
           {
-            content: 'React Native',
+            content: 'React',
           },
           {
-            content: 'Firebase',
+            content: 'Node JS',
           },
           {
-            content: 'Styled Component',
+            content: 'Heroku',
           },
         ],
       },
@@ -461,73 +461,73 @@ export const SERVICE_LIST = [
         content: 'ReactJS',
       },
       {
-        content: 'AngularJS',
-      },
-      {
-        content: 'ASP.NET MVC',
-      },
-      {
         content: 'WordPress',
       },
       {
         content: 'NodeJS',
       },
       {
-        content: 'GO',
+        content: 'HTML/CSS',
+      },
+      {
+        content: 'Javascript',
+      },
+      {
+        content: 'JQuery',
       },
     ],
   },
-  {
-    title: 'Mobile App Development',
-    listItems: [
-      {
-        content: 'iOS',
-      },
-      {
-        content: 'Android',
-      },
-      {
-        content: 'React Native',
-      },
-      {
-        content: 'Ionic & Apache Cordova',
-      },
-      {
-        content: 'NodeJS',
-      },
-      {
-        content: '3D & VR',
-      },
-    ],
-  },
+  // {
+  //   title: 'Mobile App Development',
+  //   listItems: [
+  //     {
+  //       content: 'iOS',
+  //     },
+  //     {
+  //       content: 'Android',
+  //     },
+  //     {
+  //       content: 'React Native',
+  //     },
+  //     {
+  //       content: 'Ionic & Apache Cordova',
+  //     },
+  //     {
+  //       content: 'NodeJS',
+  //     },
+  //     {
+  //       content: '3D & VR',
+  //     },
+  //   ],
+  // },
 ];
 
 export const SKILLS = [
   {
-    title: 'Graphic Design',
+    title: 'Graphic Design / Branding',
     description:
-      'Aristotle maintained the sharp distinction between science and the practical',
+      'I will ensure that your brand stands out from the crowd with the best design solutions',
     icon: SkillIcon1,
-    successRate: '90',
+    successRate: '100',
   },
   {
     title: 'UI/UX Design',
     description:
-      'Aristotle maintained the sharp distinction between science and the practical',
+      "Tell your brand's story while maximizing leads, with a custom website that will oup-perform your competition!",
     icon: SkillIcon2,
-    successRate: '85',
+    successRate: '90',
   },
   {
     title: 'Web Application',
     description:
-      'Aristotle maintained the sharp distinction between science and the practical',
+      'We believe in the importance of investigating the newest technologies, backing them up with practical examples and sharing them with our clients.',
     icon: SkillIcon3,
     successRate: '80',
   },
   {
     title: 'Mobile Application',
     description:
-      'Aristotle maintained the sharp distinction between science and the practical',
+      'Mobile application development is the set of processes and procedures involved in writing software for small, wireless computing devices.',
     icon: SkillIcon4,
     successRate: '70',
   },
