@@ -15,8 +15,12 @@ import AwardImage4 from '../assets/image/award.svg';
 
 import PortfolioImage1 from '../assets/image/portfolio-1.png';
 import PortfolioImage2 from '../assets/image/portfolio-2.png';
-import PortfolioImage3 from '../assets/image/portfolio-1.png';
-import PortfolioImage4 from '../assets/image/portfolio-2.png';
+import PortfolioImage3 from '../assets/image/portfolio-3.png';
+import PortfolioImage4 from '../assets/image/portfolio-4.png';
+import PortfolioImage5 from '../assets/image/portfolio-5.png';
+// import PortfolioImage6 from '../assets/image/portfolio-6.png';
+// import PortfolioImage7 from '../assets/image/portfolio-7.png';
+// import PortfolioImage8 from '../assets/image/portfolio-8.png';
 
 import Step1 from '../assets/image/research.svg';
 import Step2 from '../assets/image/design.svg';
@@ -210,7 +214,7 @@ export const PORTFOLIO_SHOWCASE = [
         title: 'My Garage React Application',
         description:
           "Manage all your car information in just one place.",
-        image: PortfolioImage1,
+        image: PortfolioImage3,
         link: 'https://my-car-garage.herokuapp.com/',
         // featuredIn: 'AWWWARDS',
         // featuredLink: '#',
@@ -233,8 +237,31 @@ export const PORTFOLIO_SHOWCASE = [
         title: 'React Clicky Game',
         description:
           "A click game developed using React JS",
-        image: PortfolioImage2,
+        image: PortfolioImage4,
         link: 'https://efrencav.github.io/react-clicky-game-hw/',
+        // featuredIn: 'AppStore',
+        // featuredLink: '#',
+        // view: '8.5K',
+        // love: '5.5K',
+        // feedback: '3.2K',
+        buildWith: [
+          {
+            content: 'React',
+          },
+          {
+            content: 'Node JS',
+          },
+          {
+            content: 'Heroku',
+          },
+        ],
+      },
+      {
+        title: 'Boots-N-Stuff',
+        description:
+          "An eCommerce website that sells cowboy boots.",
+        image: PortfolioImage5,
+        link: 'https://boots-n-stuff.herokuapp.com/',
         // featuredIn: 'AppStore',
         // featuredLink: '#',
         // view: '8.5K',
