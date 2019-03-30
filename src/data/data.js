@@ -18,7 +18,7 @@ import PortfolioImage2 from '../assets/image/portfolio-2.png';
 import PortfolioImage3 from '../assets/image/portfolio-3.png';
 import PortfolioImage4 from '../assets/image/portfolio-4.png';
 import PortfolioImage5 from '../assets/image/portfolio-5.png';
-// import PortfolioImage6 from '../assets/image/portfolio-6.png';
+import PortfolioImage6 from '../assets/image/portfolio-6.png';
 // import PortfolioImage7 from '../assets/image/portfolio-7.png';
 // import PortfolioImage8 from '../assets/image/portfolio-8.png';
 
@@ -262,6 +262,29 @@ export const PORTFOLIO_SHOWCASE = [
           "An eCommerce website that sells cowboy boots.",
         image: PortfolioImage5,
         link: 'https://boots-n-stuff.herokuapp.com/',
+        // featuredIn: 'AppStore',
+        // featuredLink: '#',
+        // view: '8.5K',
+        // love: '5.5K',
+        // feedback: '3.2K',
+        buildWith: [
+          {
+            content: 'React',
+          },
+          {
+            content: 'Node JS',
+          },
+          {
+            content: 'Heroku',
+          },
+        ],
+      },
+      {
+        title: 'Eat-the-Burger',
+        description:
+          "A website that allows you to load your burger and eat it :).",
+        image: PortfolioImage6,
+        link: 'https://app-eat-da-burger.herokuapp.com/',
         // featuredIn: 'AppStore',
         // featuredLink: '#',
         // view: '8.5K',
